@@ -456,4 +456,4 @@ server/data/manifest.json
 
 ## 许可证
 
-当前仓库尚未声明开源许可证。发布到公开 GitHub 后，如希望他人明确知道可否使用、修改或分发，建议补充 `LICENSE` 文件。
+本项目基于 MIT License 开源。详情请见 [LICENSE](./LICENSE)。
