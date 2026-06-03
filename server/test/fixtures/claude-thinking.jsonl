@@ -1,0 +1,2 @@
+{"type":"user","message":{"role":"user","content":"问T"},"uuid":"u1","isSidechain":false,"timestamp":"2026-05-13T01:00:00.000Z","cwd":"C:\\proj","sessionId":"claude-think-0004"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"thinking","thinking":"我在想一个答案"},{"type":"text","text":"答T"}]},"uuid":"a1","isSidechain":false,"timestamp":"2026-05-13T01:00:08.000Z","cwd":"C:\\proj","sessionId":"claude-think-0004"}

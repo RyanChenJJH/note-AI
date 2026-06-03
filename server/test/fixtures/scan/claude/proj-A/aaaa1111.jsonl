@@ -1,0 +1,2 @@
+{"type":"user","message":{"role":"user","content":"扫描问题一"},"isSidechain":false,"timestamp":"2026-05-20T03:00:00.000Z","cwd":"E:\\projA","sessionId":"claude-scan-1"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"扫描回答一"}]},"isSidechain":false,"timestamp":"2026-05-20T03:00:05.000Z","cwd":"E:\\projA","sessionId":"claude-scan-1"}

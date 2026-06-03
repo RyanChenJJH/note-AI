@@ -1,0 +1,91 @@
+/* 晨雾 Sage Mist 主题：Tailwind v4 + 字体 + 配色 token（见 docs/04 §1/§2）。 */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+/* —— 语义化配色变量（docs/04 §1）—— */
+:root {
+  --background: #f5f5f0; /* 雾白页面底 */
+  --foreground: #0f172a; /* 主文字（墨） */
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #6b7280; /* 雾灰主色 */
+  --primary-foreground: #ffffff;
+  --secondary: #f6f6f7;
+  --secondary-foreground: #0f172a;
+  --muted: #f6f6f7; /* 浅底块/hover 底 */
+  --muted-foreground: #64748b; /* 次文字 */
+  --accent: #0891b2; /* 静谧青：CTA/选中/链接，克制使用 */
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #edeeef;
+  --input: #edeeef;
+  --ring: #6b7280; /* 焦点环 */
+  --radius: 0.625rem;
+}
+
+/* —— 把语义变量映射成 Tailwind 工具类的颜色/字体/圆角 token —— */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-serif: 'Lora', 'Noto Serif SC', serif;
+  --font-sans: 'Raleway', 'Noto Sans SC', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* —— 基线 —— */
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+  /* 可见焦点环（青色），所有可点元素（docs/04 §6） */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+/* reduced-motion：全站退化为无动画（docs/04 §3） */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

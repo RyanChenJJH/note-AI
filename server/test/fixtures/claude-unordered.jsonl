@@ -1,0 +1,4 @@
+{"type":"user","message":{"role":"user","content":"Q1"},"uuid":"u1","isSidechain":false,"timestamp":"2026-05-16T01:00:01.000Z","cwd":"C:\\proj","sessionId":"claude-ord-0007"}
+{"type":"user","message":{"role":"user","content":"Q2"},"uuid":"u2","isSidechain":false,"timestamp":"2026-05-16T01:00:03.000Z","cwd":"C:\\proj","sessionId":"claude-ord-0007"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"A1"}]},"uuid":"a1","isSidechain":false,"timestamp":"2026-05-16T01:00:02.000Z","cwd":"C:\\proj","sessionId":"claude-ord-0007"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"A2"}]},"uuid":"a2","isSidechain":false,"timestamp":"2026-05-16T01:00:04.000Z","cwd":"C:\\proj","sessionId":"claude-ord-0007"}

@@ -1,0 +1,14 @@
+{
+  "exportDir": "D:\\Notes\\AI-Inbox",
+  "aiNotesDir": "D:\\Notes\\AI-Knowledge",
+  "ai": {
+    "enabled": false,
+    "provider": "openai-compatible",
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKey": "",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "timeoutMs": 60000,
+    "skillPath": "D:\\Skills\\chenao-note-ai"
+  }
+}

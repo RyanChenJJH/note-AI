@@ -1,0 +1,3 @@
+{"type":"user","message":{"role":"user","content":"甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁甲乙丙丁"},"uuid":"u1","isSidechain":false,"timestamp":"2026-05-17T01:00:01.000Z","cwd":"C:\\proj","sessionId":"claude-title-0008"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"短答"}]},"uuid":"a1","isSidechain":false,"timestamp":"2026-05-17T01:00:05.000Z","cwd":"C:\\proj","sessionId":"claude-title-0008"}
+{"type":"user","message":{"role":"user","content":"末尾问题没有回答"},"uuid":"u2","isSidechain":false,"timestamp":"2026-05-17T01:00:09.000Z","cwd":"C:\\proj","sessionId":"claude-title-0008"}

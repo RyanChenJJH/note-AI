@@ -1,0 +1,2 @@
+{"type":"user","message":{"role":"user","content":"问I"},"uuid":"u1","isSidechain":false,"timestamp":"2026-05-15T01:00:00.000Z","cwd":"C:\\proj","sessionId":"claude-inline-0006"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"这是模型的内部推理过程\n</think>\n\n这是真正的答案I"}]},"uuid":"a1","isSidechain":false,"timestamp":"2026-05-15T01:00:06.000Z","cwd":"C:\\proj","sessionId":"claude-inline-0006"}

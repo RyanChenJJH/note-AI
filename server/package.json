@@ -1,0 +1,19 @@
+{
+  "name": "ai-dialog-archive-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "本地工具「AI 对话档案」后端内核：扫描/解析/分轮/导出 Claude Code 与 Codex CLI 的对话记录",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit",
+    "serve": "node src/http/server.ts",
+    "scan": "node src/cli.ts scan",
+    "show": "node src/cli.ts show",
+    "export": "node src/cli.ts export",
+    "verify": "node src/cli.ts verify"
+  }
+}

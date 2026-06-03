@@ -1,0 +1,2 @@
+{"type":"user","message":{"role":"user","content":"你好"},"uuid":"u1","parentUuid":null,"isSidechain":false,"timestamp":"2026-05-11T01:33:07.213Z","cwd":"C:\\Users\\RyanC\\Desktop\\test","sessionId":"claude-min-0001","version":"2.1.138"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"你好！有什么可以帮你？"}]},"uuid":"a1","parentUuid":"u1","isSidechain":false,"timestamp":"2026-05-11T01:33:56.217Z","cwd":"C:\\Users\\RyanC\\Desktop\\test","sessionId":"claude-min-0001","version":"2.1.138"}
